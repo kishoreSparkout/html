@@ -1,0 +1,2179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*--body--*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+  background-color: #ffffff;
+}
+
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 48px;
+}
+
+/*--header-start--*/
+
+.top-header {
+  background-color: #111111;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #86afc0;
+  align-items: center;
+}
+
+.contact a:hover {
+  color: #badee6;
+  transition: 0.4s;
+}
+
+.top-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.top-bar ul li {
+  float: right;
+  list-style: none;
+}
+
+.top-bar ul li img {
+  width: 16px;
+  height: 16px;
+}
+
+/*--header-end--*/
+/*--navigation-start--*/
+
+.top-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.container {
+  position: relative;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding-right: 45px;
+}
+
+.menu-bar li {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.menu-bar li a {
+  text-decoration: none;
+  color: #111111;
+  padding: 10px 20px;
+
+}
+
+.dropdown {
+  position: relative;
+
+}
+
+.menu-bar a:hover {
+  color: #86afc0;
+  transition: 0.4s;
+}
+
+.dropdown-menu li {
+  display: block;
+  white-space: nowrap;
+  padding: 10px 20px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: #f2f2f2;
+  visibility: hidden;
+  margin-top: 5px;
+  z-index: 99;
+}
+
+.dropdown-menu ul {
+  padding-left: 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+  cursor: pointer;
+  visibility: visible;
+}
+
+.dropdown-menu li:hover {
+  background-color: #86afc0;
+  color: #ffffff;
+  transition: 0.4s;
+}
+
+.dropdown-menu-search {
+  display: inline-block;
+  position: absolute;
+  top: 35px;
+  right: 30px;
+}
+
+
+.dropdown-search {
+  width: 300px;
+  padding: 20px;
+  outline: none;
+  right: -3px;
+  top: 25px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  line-height: 2;
+  z-index: 999;
+}
+
+.dropdown-search li {
+  display: block;
+}
+
+.dropdown-search input {
+  width: 100%;
+  border-radius: 15px;
+  padding: 10px 10px 10px 22px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding-right: 21px;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.search {
+  position: absolute;
+  visibility: hidden;
+  right: -36px;
+  top: 13px;
+  padding: 40px;
+  width: 370px;
+  z-index: 99;
+}
+
+.dropdown-search span {
+  position: absolute;
+  top: 70px;
+  right: 52px;
+}
+
+.dropdown-menu-search:hover .search {
+  visibility: visible;
+}
+
+.nav-bar {
+  margin-top: 25px;
+  display: none;
+  padding-top: 5px;
+  position: absolute;
+  width: 25px;
+  cursor: pointer;
+  right: 60px;
+  top: 45px;
+
+}
+
+.nav-bar span {
+  display: block;
+  width: 80%;
+  padding: 2px;
+  border-top: 2px solid #333;
+  margin-left: 3px;
+}
+
+#navbar-toggle {
+  display: none;
+}
+
+/*--navigation-end--*/
+
+/*--our service-start--*/
+.our-service {
+  background-image: url('../images/our-service.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display: block;
+  height: 585px;
+  color: #ffffff;
+}
+
+.our-service .container {
+  height: 100%;
+}
+
+
+.banner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1 {
+  text-shadow: 5px 5px 9px #111111;
+  font-size: 72px;
+
+}
+
+.banner-content a {
+  color: #ffffff;
+}
+
+
+.banner-content p {
+  text-underline-offset: 5px;
+}
+
+.banner-content p a:hover {
+  color: #86afc0;
+  transition: 0.4s;
+}
+
+/*--our service-end--*/
+/*--serviceprovide-start--*/
+.service-provide {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.service-content {
+  text-align: center;
+  margin: 0 auto 0 auto;
+  max-width: 700px;
+}
+
+.service-content h2 {
+  font-weight: 500;
+  color: #0d0909;
+}
+
+.service-content p {
+  line-height: 1.6;
+  padding-top: 19px;
+  color: #111111;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 18px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #f1f6f9;
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 30px 50px 30px;
+}
+
+.card img {
+  margin: 0 auto 0 auto;
+}
+
+.card p {
+  font-size: 24px;
+  text-align: center;
+  color: #86afc0;
+  font-weight: 500;
+  margin: 35px auto 0 auto;
+}
+
+/*--serviceprovide-end--*/
+/*--smart camera control-start--*/
+
+.smart-camera {
+  background-color: #333333;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #ffffff;
+}
+
+
+.smart-camera-list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 30px;
+
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 29px 30px 0;
+  flex: 1;
+}
+
+.list-item ul {
+  margin-top: 40px;
+}
+
+.list-item li {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 2;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.list-item a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.svg-check {
+  width: 16px;
+  height: 16px;
+  color: #db545a;
+  margin-right: 9px;
+}
+
+
+.button {
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  padding: 18px 36px 19px 36px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  transition-duration: 0.5s;
+  margin: 30px auto 0 0;
+}
+
+.smart-camera-image img {
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+/*--smart camera control-end--*/
+/*--about smart home-start--*/
+.smart-home-list {
+  padding-top: 60px;
+}
+
+.smart-home-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.smart-home-image img {
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.about-home-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50px;
+  color: #111111;
+  background-color: #f1f6f9;
+  padding: 30px 40px;
+  flex: 0.9;
+
+}
+
+.about-home-list h2 {
+  font-weight: 500;
+}
+
+.about-home-list ul {
+  margin-top: 40px;
+}
+
+.about-home-list li {
+  list-style-type: none;
+  line-height: 2;
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin-left: 4px;
+}
+
+.svg-tick {
+  width: 16px;
+  height: 16px;
+  color: #86afc0;
+  margin-right: 9px;
+}
+
+.about-home-list a {
+  border-color: #86afc0;
+  color: #86afc0;
+}
+
+.about-home-list a:hover {
+  background-color: #86afc0;
+  color: #ffffff;
+}
+
+/*--about smart home-end--*/
+/*--people trust us-start--*/
+
+.people-trust {
+  text-align: center;
+  color: #111111;
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+}
+
+.people-trust h2 {
+  font-weight: 500;
+}
+
+.people-trust p {
+  font-size: 24px;
+  line-height: 1.6;
+  padding-top: 50px;
+}
+
+.people-trust a {
+  border-color: #86afc0;
+  color: #86afc0;
+  margin: 50px auto 0 auto;
+  padding: 18px 59px 19px 58px;
+  line-height: 1.4;
+
+}
+
+.people-trust a:hover {
+  background-color: #86afc0;
+  color: white;
+}
+
+/*--people trust us-end--*/
+/*--know more--start--*/
+
+.about-smart-home {
+  text-align: center;
+  background-color: #f1f6f9;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about-smart-home h2 {
+  font-weight: 500;
+}
+
+.about-smart-home-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 28px;
+  margin-top: 64px;
+
+
+}
+
+.smart-home-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 50px;
+  background-color: #ffffff;
+  padding: 30px;
+
+}
+
+.smart-home-card h3 {
+  color: #86afc0;
+  font-size: 72px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.smart-home-card p {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+/*--know more--end--*/
+/*--gridbox-start--*/
+.smart-home-project {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.about-smart-project {
+  display: grid;
+  grid-template-columns: 45% 50%;
+  gap: 30px;
+
+}
+
+.smart-project-form form {
+  background-color: #f2f2f2;
+  border-radius: 50px;
+  padding: 30px;
+  margin-top: 40px;
+  line-height: 2;
+}
+
+.smart-project-form h2 {
+  font-size: 34px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.smart-project-form p {
+  padding-top: 20px;
+}
+
+.smart-project-image img {
+  width: 570px;
+  height: 630px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.smart-project-form label {
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.smart-project-form input {
+  width: 100%;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.smart-project-form textarea {
+  width: 100%;
+  height: 120px;
+  border-radius: 20px;
+  font-size: 18px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  outline: none;
+
+}
+
+.smart-project-form a input {
+  background-color: #e68387;
+  color: #ffffff;
+  opacity: 0.7;
+  width: 30%;
+  padding: 10px 3px 11px 3px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  line-height: 1.4;
+  border: none;
+}
+
+.smart-project-form a input:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/*--gridbox-end--*/
+/*--footer-start--*/
+.footer {
+  background-color: #293033;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #ffffff;
+}
+
+.top-footer {
+  display: grid;
+  grid-template-columns: 55% 40%;
+
+}
+
+.footer-content {
+  padding: 0 30px 30px 0;
+}
+
+.footer-content h2 {
+  font-weight: 700;
+}
+
+.footer-content p {
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.footer-contact {
+  padding: 30px 30px 50px 30px;
+}
+
+.footer-contact a button {
+  border-radius: 50px;
+  padding: 18px 50px 19px 49px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  background-color: #86afc0;
+  color: #ffffff;
+  transition-duration: 0.5s;
+}
+
+.footer-contact button:hover {
+  background-color: #ffffff;
+  color: #111111;
+  cursor: pointer;
+}
+
+.horizontal-row {
+  border: 1px solid #666666;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  opacity: 0.5;
+}
+
+
+.bottom-footer {
+  display: grid;
+  grid-template-columns: 35% 40% 25%;
+
+}
+
+.follow-us {
+  padding: 25px 25px 25px 0;
+}
+
+.follow-us p {
+  line-height: 1.6;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+address {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  padding-top: 12px;
+
+}
+
+address svg {
+  width: 20px;
+  height: 20px;
+
+}
+
+.follow-us h4 {
+  padding-top: 20px;
+  line-height: 1.6;
+}
+
+.follow-us h4 a {
+  color: #86afc0;
+  font-weight: 400;
+  text-underline-offset: 5px;
+}
+
+.follow-us h4 a:hover {
+  color: #ffffff;
+  transition: 0.4s;
+}
+
+.follow-us li img {
+  width: 20px;
+  height: 20px;
+}
+
+.follow-us li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.follow-us ul {
+  padding-top: 30px;
+}
+
+.contact-us {
+  padding: 25px;
+}
+
+.contact-us a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #86afc0;
+}
+
+.contact-support {
+  display: flex;
+  align-items: center;
+}
+
+.contact-support img {
+  height: 33px;
+  width: 33px;
+  margin-right: 6px;
+
+}
+
+.contact-us a:hover {
+  color: #ffffff;
+  transition: 0.4s;
+}
+
+.contact-us h2 {
+  font-size: 34px;
+  padding-bottom: 25px;
+}
+
+.contact-us p {
+  margin-top: 20px;
+  color: #cadee6;
+  line-height: 1.6;
+}
+
+.horizontal {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #666666;
+  opacity: 0.5;
+}
+
+.email-support {
+  display: flex;
+  align-items: center;
+}
+
+.email-support img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.contact-us span a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 20px;
+}
+
+.contact-us span a:hover {
+  color: #86afc0;
+  cursor: pointer;
+
+}
+
+.quick-links {
+  padding: 25px 0 25px 25px;
+}
+
+.quick-links h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.quick-links li a {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.quick-links ul {
+  list-style-type: none;
+  transition: 0.4s;
+}
+
+.quick-links li a:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width:1200px) {
+
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .our-service {
+    background-position: 50% 100%;
+  }
+
+  .dropdown-menu-search {
+    right: 47px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .smart-camera-list {
+    grid-template-columns: 48% 49%;
+
+  }
+
+  .smart-camera-image img {
+    width: 100%;
+  }
+
+  .smart-home-image img {
+    width: 100%
+  }
+
+  .smart-home-list {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 48% 48%;
+  }
+
+  .about-smart-project {
+    grid-template-columns: 48% 49%;
+  }
+
+  .smart-project-image img {
+    width: 100%
+  }
+
+  .top-footer {
+    grid-template-columns: 55% 40%;
+  }
+
+  .bottom-footer {
+    grid-template-columns: 35% 35% 30%;
+  }
+}
+
+@media only screen and (max-width:1024px) {
+
+  .our-service {
+    width: 100%;
+    height: 430px;
+  }
+
+  .search {
+    right: -36px;
+    top: 12px;
+    width: 340px;
+  }
+
+  .dropdown-search {
+    width: 270px;
+  }
+
+  .button {
+    font-size: 18px;
+    padding: 16px 33px 17px 33px;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card p {
+    font-size: 22px;
+  }
+
+  .smart-camera-list {
+    grid-template-columns: 54% 45%;
+    gap: 1%;
+
+  }
+
+  .list-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 9px 10px 0;
+    flex: 1;
+  }
+
+  .smart-home-list {
+    grid-template-columns: 43% 55%;
+    gap: 20px;
+    padding-top: 60px;
+  }
+
+  .about-home-list {
+    padding: 30px;
+  }
+
+  .smart-camera-image img {
+    margin-top: 100px;
+    height: 338px;
+  }
+
+  .smart-home-project {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .smart-home-image img {
+    margin-top: 130px;
+    height: 350px;
+
+  }
+
+  .people-trust p {
+    padding-top: 40px;
+  }
+
+  .people-trust {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .people-trust a {
+    margin: 40px auto 0 auto;
+  }
+
+  .people-trust p {
+    font-size: 20px;
+  }
+
+  .about-smart-home-card {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .smart-home-card p {
+    margin-top: 15px;
+  }
+
+  .smart-home-card h3 {
+    font-size: 60px;
+  }
+
+  .about-smart-home {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .about-smart-project {
+    grid-template-columns: 100%;
+    gap: 55px;
+
+  }
+
+  .smart-project-form h2 {
+    margin-top: 0;
+  }
+
+  .smart-project-form a input {
+    width: 20%;
+  }
+
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .top-footer {
+    grid-template-columns: 100%;
+  }
+
+  .footer-contact {
+    padding: 30px 30px 30px 0;
+  }
+
+  .bottom-footer {
+    grid-template-columns: 50% 50%;
+  }
+
+  .quick-links {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .menu-bar li {
+    display: block;
+    padding: 5px 0;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
+  .search ul {
+    display: block !important;
+    position: static !important;
+  }
+
+  .search {
+    right: -23px;
+    top: 28px;
+    padding: 18px;
+    width: 235px;
+  }
+
+  .dropdown-menu-search a img {
+    display: inline-block !important;
+  }
+
+  .dropdown ul {
+    display: block !important;
+  }
+
+  .dropdown-menu li {
+    display: none !important;
+  }
+
+  .dropdown-search li {
+    padding: 0;
+    line-height: 1.2;
+  }
+
+  .dropdown-search {
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .dropdown-search span {
+    top: 38px;
+    right: 39px;
+  }
+
+  .dropdown-search input {
+    border-radius: 10px;
+    padding: 5px 5px 5px 12px;
+    font-size: 14px;
+    line-height: 1;
+    padding-right: 25px;
+  }
+
+  .dropdown-search li {
+    display: block;
+  }
+
+  .menu-bar ul {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: #f2f2f2;
+    border: none;
+    top: 79px;
+    right: -30px;
+    margin-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .menu-bar li a {
+    padding: 0 30px;
+  }
+
+  .nav-bar {
+    display: inline;
+    right: 64px;
+    top: 6px;
+  }
+
+  .top-head .logo img {
+    width: 100px;
+  }
+
+  .dropdown-search {
+    width: 200px;
+  }
+
+  .dropdown-menu-search {
+    right: 29px;
+    top: 33px;
+  }
+
+  .top-bar ul li img {
+    height: 14px;
+    width: 18px;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 15px 30px 16px 30px;
+  }
+
+  #navbar-toggle:checked~.menu-bar {
+    display: flex;
+  }
+
+  .our-service {
+    width: 100%;
+    height: 330px;
+  }
+
+  .service-provide {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .service-content h2 {
+    font-size: 36px;
+  }
+
+  .card {
+    border-radius: 35px;
+  }
+
+  .list-item h2 {
+    font-size: 36px;
+  }
+
+  .list-item li {
+    line-height: 1.7;
+  }
+
+  .card-container {
+    gap: 25px;
+  }
+
+  .smart-camera {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .svg-check {
+    width: 14px;
+    height: 14px;
+    vertical-align: -2px;
+    margin-right: 5px;
+  }
+
+  .smart-camera-list {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .smart-camera-image img {
+    margin-top: 0;
+    height: 585px;
+    border-radius: 35px;
+  }
+
+  .smart-home-list {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 25px;
+    padding-top: 50px;
+  }
+
+  .svg-tick {
+    height: 14px;
+    height: 14px;
+    vertical-align: -2px;
+    margin-right: 5px;
+  }
+
+  .smart-home-image img {
+    margin-top: 0;
+    height: 600px;
+    border-radius: 35px;
+  }
+
+  .people-trust {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .people-trust h2 {
+    font-size: 36px;
+  }
+
+  .people-trust a {
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 15px 30px 16px 30px;
+  }
+
+
+  .people-trust p {
+    font-size: 18px;
+    padding-top: 30px;
+  }
+
+  .about-smart-home {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about-home-list {
+    border-radius: 35px;
+  }
+
+  .about-home-list ul li {
+    line-height: 1.7;
+  }
+
+  .about-home-list h2 {
+    font-size: 36px;
+  }
+
+  .about-smart-home h2 {
+    font-size: 36px;
+  }
+
+  .about-smart-home-card {
+    gap: 25px;
+    margin-top: 50px;
+  }
+
+  .about-smart-project {
+    gap: 40px;
+  }
+
+  .smart-home-project {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .card img {
+    width: 85px;
+    height: auto;
+  }
+
+  .card p {
+    font-size: 18px;
+    margin: 20px auto 0 auto;
+  }
+
+  .smart-home-card {
+    border-radius: 35px;
+  }
+
+  .smart-home-card h3 {
+    font-size: 45px;
+  }
+
+  .smart-home-card p {
+    font-size: 18px;
+  }
+
+  .smart-project-form form {
+    border-radius: 35px;
+  }
+
+  .smart-project-form a input {
+    padding: 10px 3px 11px 3px;
+    width:28%;
+  }
+
+  .smart-project-image img {
+    border-radius: 35px;
+  }
+
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .footer-contact a button {
+    font-size: 16px;
+    padding: 16px 50px 17px 49px;
+    border-radius: 40px;
+  }
+
+  .footer-content h2 {
+    font-size: 36px;
+  }
+
+  .footer-content {
+    padding: 25px 25px 25px 0;
+  }
+
+  .bottom-footer {
+    grid-template-columns: 1fr;
+  }
+
+  address h3 svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .contact-us {
+    padding: 22px 0
+  }
+
+  .contact-support img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .contact-us span a {
+    font-size: 18px;
+  }
+
+  .contact-support a b {
+    font-size: 24px;
+  }
+
+  .follow-us {
+    padding: 22px 0;
+  }
+
+  .follow-us a img {
+    width: 130px;
+  }
+
+  address {
+    font-size: 16px;
+  }
+
+  .follow-us li img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .contact-us h2 {
+    font-size: 30px;
+  }
+
+  .contact-us p {
+    font-size: 16px;
+  }
+
+  .quick-links {
+    padding: 22px 0;
+  }
+
+
+  .quick-links h2 {
+    font-size: 30px;
+  }
+
+  .quick-links li a {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
+
+@media only screen and (max-width:480px) {
+
+  .top-bar p {
+    font-size: 16px;
+  }
+
+  .top-bar a b {
+    font-size: 16px;
+  }
+
+  .menu-bar li a {
+    padding: 0 20px;
+  }
+
+  .dropdown-menu-search {
+    top: 28px;
+  }
+
+  .dropdown-search {
+    width: 150px;
+  }
+
+  .our-service {
+    height: 230px;
+  }
+
+  .dropdown-search input {
+    padding-right: 31px;
+  }
+
+  .search {
+    right: -31px;
+    top: 21px;
+    padding: 25px;
+    width: 200px;
+  }
+
+  .dropdown-search span {
+    top: 42px;
+    right: 47px;
+  }
+
+  .dropdown-search span img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .banner-content p i {
+    font-size: 16px;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .top-head .logo img {
+    width: 90px;
+  }
+
+  .dropdown-menu-search a img {
+    width: 18px;
+    height: 18px;
+    vertical-align: -3px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .service-content h2 {
+    font-size: 30px;
+  }
+
+  .service-content p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .service-provide {
+    padding-top: 45px;
+    padding-bottom: 45px
+  }
+
+  .nav-bar {
+    top: 3px;
+    right: 65px;
+  }
+
+  .menu-bar ul {
+    top: 74px;
+    right: -30px;
+    padding: 10px 0;
+  }
+
+  .dropdown-search {
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .menu-bar li {
+    font-size: 13px;
+    padding: 2px 0;
+  }
+
+  .list-item h2 {
+    font-size: 30px;
+  }
+
+  .list-item ul li {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 14px 32px 15px 33px;
+  }
+
+  .smart-home-project {
+    padding: 45px 0;
+  }
+
+  .smart-camera {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .smart-camera-image img {
+    height: 370px;
+    border-radius: 30px;
+  }
+
+  .smart-home-list {
+    padding-top: 45px;
+    padding-bottom: 0;
+  }
+
+  .smart-camera-list {
+    gap: 20px;
+  }
+
+  .smart-home-image img {
+    height: 380px;
+    border-radius: 30px;
+  }
+
+  .about-home-list {
+    border-radius: 30px;
+  }
+
+  .about-home-list h2 {
+    font-size: 30px;
+  }
+
+  .svg-check {
+    width: 13px;
+    height: 13px;
+    vertical-align: -2px;
+  }
+
+  .about-home-list ul li {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .about-smart-home {
+    padding: 45px 0;
+  }
+
+  .about-smart-home-card {
+    grid-template-columns: 1fr;
+  }
+
+  .about-home-list ul {
+    margin-top: 20px;
+  }
+
+  .svg-tick {
+    height: 13px;
+    width: 13px;
+  }
+
+  .people-trust a {
+    padding: 14px 32px 15px 33px;
+    font-size: 14px;
+    margin-top: 17px;
+  }
+
+  .people-trust {
+    padding: 45px 0;
+  }
+
+  .people-trust h2 {
+    font-size: 30px;
+  }
+
+  .people-trust p {
+    font-size: 15px;
+    padding-top: 15px;
+    line-height: 1.5;
+  }
+
+  .smart-project-form form {
+    margin-top: 25px;
+  }
+
+  .smart-project-form p {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
+  .smart-project-form input {
+    font-size: 14px;
+  }
+
+  .smart-project-form textarea {
+    font-size: 14px;
+  }
+
+  .smart-home-card {
+    border-radius: 30px;
+  }
+
+  .about-smart-project {
+    gap: 25px;
+  }
+
+  .about-smart-home h2 {
+    font-size: 30px;
+  }
+
+  .about-smart-home-card {
+    margin-top: 20px;
+  }
+
+  .smart-home-card h3 {
+    font-size: 35px;
+  }
+
+  .list-item {
+    padding: 0;
+  }
+
+  .list-item ul {
+    margin-top: 20px;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
+
+  .smart-home-card p {
+    font-size: 16px;
+  }
+
+  .card-container {
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 35px 20px 35px 20px;
+    border-radius: 30px;
+  }
+
+  .card img {
+    width: 60px;
+    height: auto;
+  }
+
+  .card p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .smart-project-form form {
+    border-radius: 30px;
+  }
+
+  .smart-project-form h2 {
+    font-size: 30px;
+    margin-top: 0;
+  }
+  .smart-project-form a input {
+    padding: 10px 3px 11px 3px;
+    width:35%;
+  }
+
+  .smart-project-image img {
+    height: 420px;
+    border-radius: 30px;
+  }
+
+  .footer-content {
+    padding: 0;
+  }
+
+  .footer {
+    padding: 45px 0;
+
+  }
+
+  .footer-content h2 {
+    font-size: 30px;
+  }
+
+  .footer-content p {
+    font-size: 14px;
+  }
+
+  .footer-contact {
+    padding: 20px 20px 20px 0;
+    font-size: 14px;
+  }
+
+  .footer-contact a button {
+    padding: 14px 32px 15px 33px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+  }
+
+  .follow-us {
+    padding: 20px 0;
+  }
+
+  address svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .follow-us ul {
+    padding-top: 15px;
+  }
+
+  .follow-us ul li img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .contact-us {
+    padding: 20px 0;
+  }
+
+  .contact-us h2 {
+    font-size: 22px;
+    padding-bottom: 15px;
+  }
+
+  .contact-us p {
+    line-height: 1.5;
+    padding-top: 15px;
+    margin-top: 0;
+  }
+
+  .contact-support a b {
+    font-size: 16px;
+    vertical-align: 8px;
+  }
+
+  .contact-support img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .horizontal {
+    margin-bottom: 20px;
+  }
+
+  .quick-links {
+    padding: 20px 0 0 0;
+  }
+
+  .quick-links h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .follow-us h4 {
+    padding-top: 15px;
+  }
+
+  .follow-us p {
+    font-size: 14px;
+    padding-top: 15px;
+  }
+
+  address h3 {
+    font-size: 14px;
+  }
+
+  .quick-links li a {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .email-support span a {
+    font-size: 16px;
+    vertical-align: 2px;
+  }
+
+  .email-support img {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .top-bar p {
+    font-size: 14px;
+  }
+
+  .our-service {
+    height: 150px;
+  }
+
+  .top-bar a b {
+    font-size: 14px;
+  }
+
+  .top-bar ul li img {
+    width: 12px;
+    height: auto;
+  }
+
+  .top-head .logo img {
+    width: 60px;
+  }
+
+  .dropdown-menu-search a img {
+    width: 16px;
+    height: auto;
+  }
+
+  .dropdown-search span img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .dropdown-search span {
+    top: 34px;
+    right: 33px;
+  }
+
+  .dropdown-search {
+    padding: 8px;
+    border-radius: 7px;
+  }
+
+  .dropdown-search input {
+    border-radius: 10px;
+    padding: 4px 4px 4px 9px;
+    font-size: 12px;
+    line-height: 1;
+    padding-right: 26px;
+  }
+
+  .search {
+    right: -17px;
+    top: 20px;
+    width: 160px;
+    padding: 20px;
+  }
+
+  .menu-bar li {
+    font-size: 11px;
+    line-height: 1;
+    padding: 1px 0;
+  }
+
+  .menu-bar ul {
+    top: 60px;
+    padding: 5px 0;
+  }
+
+  .nav-bar span {
+    padding: 1.4px;
+    width: 70%;
+  }
+
+  .nav-bar {
+    top: -4px;
+    right: 50px;
+  }
+
+  .dropdown-menu-search {
+    top: 20px;
+  }
+
+  .dropdown-search {
+    width: 125px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+
+  .banner-content p i {
+    font-size: 14px;
+  }
+
+  .service-provide {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .service-content h2 {
+    font-size: 22px;
+  }
+
+  .service-content p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .list-item h2 {
+    font-size: 22px;
+  }
+
+  .list-item ul li {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .card {
+    border-radius: 20px;
+    padding: 35px 20px 35px 20px;
+  }
+
+  .svg-check {
+    height: 11px;
+    width: 11px;
+    margin-right: 2px;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 12px 28px 13px 29px;
+  }
+
+  .smart-home-card {
+    padding: 25px;
+  }
+
+  .smart-home-list {
+    padding-top: 35px;
+  }
+
+  .smart-camera {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .smart-camera-image img {
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .about-home-list h2 {
+    font-size: 22px;
+  }
+
+  .about-home-list ul li {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .svg-tick {
+    height: 11px;
+    width: 11px;
+    margin-right: 2px;
+  }
+
+  .about-home-list {
+    border-radius: 20px;
+    padding: 15px;
+
+  }
+
+  .smart-home-image img {
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .people-trust {
+    padding: 35px 0;
+  }
+
+  .people-trust h2 {
+    font-size: 22px;
+  }
+
+  .people-trust p {
+    font-size: 14px;
+    padding-top: 10px;
+    line-height: 1.4;
+  }
+
+  .people-trust a {
+    padding: 12px 27px 13px 28px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .about-smart-home {
+    padding: 35px 0;
+  }
+
+  .about-smart-home h2 {
+    font-size: 22px;
+  }
+
+  .smart-home-card {
+    border-radius: 20px;
+  }
+
+  .smart-home-card h3 {
+    font-size: 30px;
+  }
+
+  .smart-home-card p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .about-smart-home-card {
+    gap: 20px;
+  }
+
+  .smart-project-form h2 {
+    font-size: 22px;
+  }
+
+  .smart-project-form p {
+    font-size: 14px;
+  }
+
+  .smart-project-form form {
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 15px;
+  }
+
+
+  .smart-project-form a input {
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 8px 3px 9px 3px;
+  }
+
+  .smart-project-image img {
+    height: 220px;
+    border-radius: 20px;
+  }
+
+  .smart-home-project {
+    padding: 35px 0;
+  }
+
+  .footer {
+    padding: 35px 0;
+  }
+
+  .footer-content h2 {
+    font-size: 22px;
+  }
+
+  .footer-content p {
+    font-size: 12px;
+  }
+
+  .footer-contact a button {
+    padding: 12px 28px 13px 29px;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+  }
+
+  .footer-contact {
+    padding: 15px 15px 15px 0;
+    font-size: 12px;
+  }
+
+  .follow-us a img {
+    width: 90px;
+  }
+
+  .follow-us {
+    padding: 10px 0;
+  }
+
+  .follow-us p {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  address svg {
+    width: 13px;
+    height: 13px;
+  }
+
+  address {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  .follow-us h4 {
+    padding-top: 10px;
+  }
+
+  .follow-us ul li img {
+    height: 16px;
+    width: 16px;
+  }
+
+  .contact-us h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .contact-support img {
+    height: 16px;
+    width: 16px;
+  }
+
+  .contact-us p {
+    line-height: 1.4;
+    padding-top: 10px;
+  }
+
+  .contact-us {
+    padding: 10px 0;
+  }
+
+  .horizontal {
+    margin-bottom: 10px;
+  }
+
+  .quick-links h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .quick-links li a {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+
+  .quick-links {
+    padding: 10px 0 0 0;
+  }
+}
